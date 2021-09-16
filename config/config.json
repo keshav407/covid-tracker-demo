@@ -1,0 +1,24 @@
+{
+"development":{
+  "NODE_ENV": "development",
+	"PORT": "8000",
+	"JWT_SECRET": "avGrCI6MTU3MDb3NjA1UCwifT4RexTcwNzc2OFT4Er",
+	"JWT_SECRET_ADMIN": "Dc3NjY1OCwiZXhwIjoxNTcwODA4MjE0fQ",
+	"JWT_EXPIRATION_INTERVAL": "31556926",
+	"MONGO_URI": "mongodb://localhost:27017/caster-api",
+	"MONGO_URI_TESTS": "mongodb://localhost:27017/caster-api"
+},
+
+"production":{
+  "NODE_ENV": "production",
+	"PORT": "8000",
+	"JWT_SECRET": "avGrCI6MTU3MDb3NjA1UCwifT4RexTcwNzc2OFT4Er",
+	"JWT_SECRET_ADMIN": "Dc3NjY1OCwiZXhwIjoxNTcwODA4MjE0fQ",
+	"JWT_EXPIRATION_INTERVAL": "31556926",
+	"MONGO_URI": "mongodb://localhost:27017/caster-api",
+	"MONGO_URI_TESTS": "mongodb://localhost:27017/caster-api"
+}
+
+}
+
+
